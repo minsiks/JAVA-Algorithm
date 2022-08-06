@@ -1,0 +1,28 @@
+package Backjoon2;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner in = new Scanner(System.in);
+		int H = in.nextInt();
+		int M = in.nextInt()-45;
+		
+		int h = 0;
+		int m = 0;
+		if (M<0) {
+			h = H-1;
+			m = M+60;
+		}else if (M>0) {
+			
+		}else if (M<0&&H-1<0) {
+			h = H-1+24;
+		}
+		
+		System.out.println(h+":"+m);
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;backjoon1.main.java&apos; to &apos;Main.java&apos;&#x0D;&#x0A;- Original project: &apos;7.31_Algorithm&apos;&#x0D;&#x0A;- Original element: &apos;backjoon1.main.java&apos;&#x0D;&#x0A;- Renamed element: &apos;backjoon1.Main.java&apos;" description="Rename compilation unit &apos;main.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;backjoon1{main.java" name="Main.java" references="false" stamp="1659234162959" version="1.0"/>
+</session>

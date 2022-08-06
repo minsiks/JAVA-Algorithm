@@ -1,0 +1,46 @@
+package teamws;
+
+import java.util.Random;
+import java.util.Scanner;
+
+
+public class ws01 {
+
+	public static void main(String[] args) {
+		Random r = new Random();
+		int i = r.nextInt(99);
+		//랜덤한 값을 생성
+		System.out.println(i);
+		Scanner sc = new Scanner(System.in);
+		System.out.println("값을 입력하시오");
+		String x = sc.next();
+		
+		try {		
+		    a = Integer.parseInt(x);
+		    // 2 ~ 99
+		    if (a <1 || a > 99) {
+		    	System.out.println("Bye 1");
+				sc.close();
+				return;
+		    }
+		}catch(Exception e) {
+			System.out.println("Bye 2");
+			sc.close();
+			return;
+		}
+		if(i > a) {
+			System.out.println("작다");
+		}
+		if(i < a) {
+			System.out.println("크다");
+		}
+		if(i == a) {
+			System.out.println("정답");
+		}
+		
+		
+		sc.close();
+
+	}
+
+}

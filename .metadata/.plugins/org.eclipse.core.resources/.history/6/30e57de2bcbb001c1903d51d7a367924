@@ -1,0 +1,26 @@
+package teamws;
+
+import java.util.Iterator;
+import java.util.Random;
+
+public class ws02 {
+
+	public static void main(String[] args) {
+		//int형 [2][6] 사이즈의 이차원 배열을 만든다.
+		//6개중 3개가 맞으면 당첨
+		int ar[][] = new int[2][6];
+		Random r = new Random();
+		
+		for (int i = 0; i < ar.length; i++) {
+			ar[i] = r.nextInt(45)+1;			
+			for (int j = 0; j < ar[i].length; j++) {
+				ar[i][j] = r.nextInt(45)+1;
+				System.out.printf("%d \t",ar[i][j]);
+			
+			}
+			System.out.println("");
+		}
+
+	}
+
+}

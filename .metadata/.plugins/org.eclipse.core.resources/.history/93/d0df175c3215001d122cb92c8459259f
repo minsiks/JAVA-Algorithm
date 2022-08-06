@@ -1,0 +1,29 @@
+package Backjoon2;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner in = new Scanner(System.in);
+		
+		int A = in.nextInt();
+		int B = in.nextInt();
+		int C = in.nextInt();
+		int D = B+C;
+		if (D>60) {
+			A=A+D/60;
+			D=D%60;
+			System.out.println(A+" "+(D));
+			if (A>23) {
+				A=A-24;
+			}
+		}else {
+			System.out.println(A+" "+(D));
+		}
+		
+		in.close();
+	}
+
+}

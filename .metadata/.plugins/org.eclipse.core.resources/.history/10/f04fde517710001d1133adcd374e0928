@@ -1,0 +1,21 @@
+package backjoon1;
+
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		String a = "joonas";
+		String b = in.nextLine();
+		if(b==a) {
+			System.out.println(b+"??!");
+		}else if (b==a) {
+			System.out.println(a+b);
+		}
+		System.out.println(b+"??!");
+		
+
+	}
+
+}
