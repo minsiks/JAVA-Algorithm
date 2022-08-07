@@ -1,0 +1,26 @@
+package Backjoon0807;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+		
+    	Scanner in = new Scanner(System.in);
+    	
+    	int X = in.nextInt();
+    	int N = in.nextInt();
+    	int r = 0;
+        sc.nextLine();
+    	String ab = in.nextLine();
+    	
+    	in.close();
+    	System.out.println(ab);
+    	String[] splited = ab.split("\\s");
+    	for (String string : splited) {
+			System.out.println(string);
+		}
+    		
+    }
+}
+
+

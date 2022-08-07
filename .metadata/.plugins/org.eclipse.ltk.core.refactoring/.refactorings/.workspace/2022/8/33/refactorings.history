@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;8.06_Algorithm&apos; to &apos;Algorithm_Backjoon&apos;" description="Rename resource &apos;8.06_Algorithm&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/8.06_Algorithm" name="Algorithm_Backjoon" stamp="1659835903007" updateReferences="true"/>
+</session>
