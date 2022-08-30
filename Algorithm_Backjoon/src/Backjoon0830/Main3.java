@@ -1,0 +1,23 @@
+package Backjoon0830;
+
+import java.util.Scanner;
+
+public class Main3 {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		
+		for (int i = 0; i < 500; i++) {
+			int A = in.nextInt();
+			int B = in.nextInt();
+			
+			if (A==0) {
+				break;
+			}
+			System.out.println(A+B);
+		}
+		in.close();
+	}
+
+}
